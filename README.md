@@ -12,9 +12,9 @@
 
 Conference Paper [here](https://drive.google.com/file/d/152JSxXGsNMnoYXAb4cSZe-In2CdUbGBu/view?usp=sharing).
 
-Research Presentation [here] (https://docs.google.com/presentation/d/1LkkplGTAbNV8P4tr6-5cNL_0sotFCIu-q29af-HWL7E/edit?usp=sharing).
+Research Presentation [here](https://docs.google.com/presentation/d/1LkkplGTAbNV8P4tr6-5cNL_0sotFCIu-q29af-HWL7E/edit?usp=sharing).
 
-UMBC's presentation about the REU Program[here](https://bigdatareu.umbc.edu/summer2022/).
+UMBC's presentation about the REU Program [here](https://bigdatareu.umbc.edu/summer2022/).
 
 Proposed Models for the Research [here](https://github.com/JLopez662/Big-Data-REU-2022/tree/Big-Data-REU-2022-Team-1/Proposed-models/Model-customization).
 

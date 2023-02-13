@@ -1,13 +1,28 @@
-# **Team 1 UMBC REU Summer 2022** 
+# Overview - Model Customization
 
-## **Title:** Big Data and Machine Learning Techniques for Atmospheric Gravity Wave Detection
+## Image Classification using Custom Models
 
-**Team Members:** Hannah Nguyen, Jorge Gonzalez, Kathryn Chen, Theodore Chapman, Logan Chambers
+This repository contains the code for two custom models that are used for image classification. Both models are built using the pre-trained model Inception V3 as a base and then adding custom layers to improve their performance.
 
-**RA:** Seraj A.M. Mostafa
+The Inception V3 model is a deep convolutional neural network trained on the ImageNet dataset, which contains over one million images and thousands of object classes. By fine-tuning the Inception V3 model on a smaller, custom dataset, we can leverage its pre-trained weights to improve the accuracy of our image classification system.
 
-**Mentor:** Dr. Jianwu Wang
+In addition to the pre-trained Inception V3 model, this project also includes a custom model, which is trained from scratch on the same custom dataset. The custom model serves as a comparison to the fine-tuned Inception V3 model, demonstrating the potential limitations and benefits of fine-tuning versus training from scratch.
 
-**Colaborator:** Dr. Jia Yue, Dr. Chenxi Wang, Dr. Sanjay Purushotham
+## Model using constant Learning Rate
+The first custom model is a basic implementation of a deep learning model for image classification, built using the pre-trained Inception V3 model and adding custom layers on top.
 
-**Abstract:** Atmospheric gravity waves are produced when gravity attempts to restore disturbances through stable layers in the atmosphere. They have a visible effect on many atmospheric phenomena such as global circulation and air turbulence. Despite their importance, however, little research has been conducted on how to detect gravity waves using machine learning algorithms. We faced two major challenges in our research: our labeled dataset was extremely small, and our raw data had a lot of noise. In this study, we explored various methods of preprocessing and transfer learning in order to address those challenges. We pre-trained an autoencoder on unlabeled data before training it to classify labeled data. We also created a custom CNN by combining certain pre-trained layers from the InceptionV3 Model trained on ImageNet with custom layers and a custom learning rate scheduler. Our best model outperformed state-of-the-art architectures with a test accuracy 6.36% higher than the best performing baseline architecture.
+## Model using Learning Rate Scheduler
+The second custom model is similar to the first one but with an added callback. This callback changes the learning rate dynamically when the validation accuracy stops improving during training. This helps to optimize the training process and prevent overfitting.
+
+## Requirements
+
+The code in this repository was developed using the following libraries and packages:
+
+Tensorflow
+Keras
+Numpy
+Matplotlib
+Pillow
+
+## Note
+Please note that the training process can take a long time and requires a GPU for optimal performance. 
